@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 public class AvailabilityChangeEventListener implements ApplicationListener<AvailabilityChangeEvent> {
     @Override
     public void onApplicationEvent(AvailabilityChangeEvent event) {
-        log.info(">>>>> Bean            receive AvailabilityChangeEvent");
+        log.info(">>>>> Bean           receive AvailabilityChangeEvent");
     }
 }

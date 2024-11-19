@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 public class ApplicationReadyEventListener implements ApplicationListener<ApplicationReadyEvent> {
     @Override
     public void onApplicationEvent(ApplicationReadyEvent event) {
-        log.info(">>>>> Bean            receive ApplicationReadyEvent");
+        log.info(">>>>> Bean           receive ApplicationReadyEvent");
     }
 }

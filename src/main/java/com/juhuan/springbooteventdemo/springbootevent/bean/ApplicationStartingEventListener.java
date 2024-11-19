@@ -10,7 +10,7 @@ import org.springframework.stereotype.Component;
 public class ApplicationStartingEventListener implements ApplicationListener<ApplicationStartingEvent> {
     @Override
     public void onApplicationEvent(ApplicationStartingEvent event) {
-        log.info(">>>>> Bean            receive ApplicationStartingEvent");
-        System.out.println(">>>>> Bean            receive ApplicationStartingEvent");
+        log.info(">>>>> Bean           receive ApplicationStartingEvent");
+        System.out.println(">>>>> Bean           receive ApplicationStartingEvent");
     }
 }

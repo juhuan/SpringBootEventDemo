@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 public class ApplicationFailedEventListener implements ApplicationListener<ApplicationFailedEvent> {
     @Override
     public void onApplicationEvent(ApplicationFailedEvent event) {
-        log.info(">>>>> Bean            receive ApplicationFailedEvent");
+        log.info(">>>>> Bean           receive ApplicationFailedEvent");
     }
 }

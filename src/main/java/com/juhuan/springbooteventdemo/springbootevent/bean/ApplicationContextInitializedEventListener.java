@@ -10,6 +10,6 @@ import org.springframework.stereotype.Component;
 public class ApplicationContextInitializedEventListener implements ApplicationListener<ApplicationContextInitializedEvent> {
     @Override
     public void onApplicationEvent(ApplicationContextInitializedEvent event) {
-        log.info(">>>>> Bean            receive ApplicationContextInitializedEvent");
+        log.info(">>>>> Bean           receive ApplicationContextInitializedEvent");
     }
 }
